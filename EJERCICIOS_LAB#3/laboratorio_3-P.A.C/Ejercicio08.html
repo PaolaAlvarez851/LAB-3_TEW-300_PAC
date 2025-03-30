@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de Tecnologías Web</title>
+</head>
+
+<body>
+    <h1>Encuesta de Tecnologías Web</h1>
+    <form>
+        <table border="1">
+            <tr>
+                <th>Tecnología</th>
+                <th>¿La has usado?</th>
+                <th>Nivel de experiencia</th>
+                <th>Comentarios</th>
+            </tr>
+            <tr>
+                <td>HTML5</td>
+                <td>
+                    <input type="checkbox" name="html5_used" id="html5_used">
+                    <label for="html5_used">Sí</label>
+                </td>
+                <td>
+                    <select name="html5_level">
+                        <option value="beginner">Principiante</option>
+                        <option value="intermediate">Intermedio</option>
+                        <option value="advanced">Avanzado</option>
+                    </select>
+                </td>
+                <td><textarea name="html5_comments" rows="2" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td>CSS3</td>
+                <td>
+                    <input type="checkbox" name="css3_used" id="css3_used">
+                    <label for="css3_used">Sí</label>
+                </td>
+                <td>
+                    <select name="css3_level">
+                        <option value="beginner">Principiante</option>
+                        <option value="intermediate">Intermedio</option>
+                        <option value="advanced">Avanzado</option>
+                    </select>
+                </td>
+                <td><textarea name="css3_comments" rows="2" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>
+                    <input type="checkbox" name="js_used" id="js_used">
+                    <label for="js_used">Sí</label>
+                </td>
+                <td>
+                    <select name="js_level">
+                        <option value="beginner">Principiante</option>
+                        <option value="intermediate">Intermedio</option>
+                        <option value="advanced">Avanzado</option>
+                    </select>
+                </td>
+                <td><textarea name="js_comments" rows="2" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="4" align="center">
+                    <input type="submit" value="Enviar Encuesta">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
